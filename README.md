@@ -21,11 +21,11 @@ This repository will be used to define build specifications for containerized im
 
 This image processing unit is supplied in the form of a Docker container available to convert MRI brain imaging data to the Neuroimaging Informatics Technology Initiative (NIfTI) open file format  Brain Imaging Data Structure) A simple and intuitive way to organize and describe your neuroimaging and behavioral data.
 
-[More details on the `dicom_to_nifti` processing container](./src/dicom_to_nifti/README.md)
+More details on [`dicom_to_nifti`](./src/dicom_to_nifti/README.md) container
 
 ### 2. Perform brain image segmentation using fastsurfer and derive volumetric data points
 
-[More details on the `fastsurfer_volumetrics` processing container](./src/fastsurfer_volumetrics/README.md)
+More details on [`fastsurfer_volumetrics`](./src/fastsurfer_volumetrics/README.md) container
 
 ![](./medical.png)
 
