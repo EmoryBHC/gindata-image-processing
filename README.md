@@ -23,7 +23,7 @@ This image processing unit is supplied in the form of a Docker container availab
 
 More details on [`dicom_to_nifti`](./src/dicom_to_nifti/README.md) container
 
-### 2. Perform brain image segmentation using fastsurfer and derive volumetric data points
+### 2. [STATUS - PLANNED]: Perform brain image segmentation using fastsurfer and derive volumetric data points
 
 More details on [`fastsurfer_volumetrics`](./src/fastsurfer_volumetrics/README.md) container
 
