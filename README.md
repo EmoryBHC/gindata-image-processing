@@ -21,7 +21,7 @@ This repository will be used to define build specifications for containerized im
 
 This image processing unit is supplied in the form of a Docker container available to convert MRI brain imaging data to the Neuroimaging Informatics Technology Initiative (NIfTI) open file format  Brain Imaging Data Structure) A simple and intuitive way to organize and describe your neuroimaging and behavioral data.
 
-In Depth usage: [TODO: Add link to README for this image]
+In Depth usage: [dicom_to_nifti Container Image README](.src/dicom_to_nifti/README.md)
 
 ![](./medical.png)
 
