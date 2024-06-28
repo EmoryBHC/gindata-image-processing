@@ -19,7 +19,7 @@ This repository will be used to define build specifications for containerized im
 
 ### 1. Convert Magnetic Resonance Imaging (MRI) brain imaging data from DICOM format to NIfTI format and organize in the BIDS output structure
 
-This image processing unit is supplied from CN2L in the form of a Docker container available to convert MRI brain imaging data to the Neuroimaging Informatics Technology Initiative (NIfTI) open file format and storing it in the Brain Imaging Data Structure (BIDS). 
+This image processing unit is supplied from CN2L in the form of a Docker container available to convert MRI brain imaging data in DICOM format to the Neuroimaging Informatics Technology Initiative (NIfTI) open file format, as well as organizing the output in the Brain Imaging Data Structure (BIDS). 
 
 More details on [`dicom_to_nifti`](./src/dicom_to_nifti/README.md) container
 
