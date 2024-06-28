@@ -42,9 +42,25 @@ TODO
     - [ ] More
     - [ ] More
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+## License
 
+Distributed under the TBD License. See [`LICENSE.txt`](.LICENSE.txt) for more information.
 
+<!-- CONTACT -->
+## Contact
+
+Gindata Operations - gindata@emory.edu
+Octavia Larentis - octavia.larentis@emory.edu
+Marina Rakic - marina.rakic@emory.edu
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Image processing 
+
+* [Computational NeuroImaging & Neuroscience Lab](https://randomprogram.net/)
+* [Emory Brain Health]()
 
 ![](./medical.png)
 
