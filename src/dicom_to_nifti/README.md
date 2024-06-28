@@ -28,7 +28,7 @@ _Follow these steps to build the container image and get started :_
    ```sh
    cd gindata-image-processing/src/dicom_to_nifti
    ```
-3. Build the docker container 
+3. Build the docker container & give it a tag
    ```sh
    docker build -t dicom_to_nifti .
    ```
