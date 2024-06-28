@@ -58,6 +58,5 @@ For more information, please contact Gindata Operations at gindata@emory.edu.
 Containerized images for performing image processing operations are developed and supplied by the CN2L lab, and will be in use in the Gindata data lake in the future to process ingested imaging data.
 
 * [Computational NeuroImaging & Neuroscience Lab](https://randomprogram.net/)
-* [Emory Brain Health]()
 
 ![](./medical.png)
