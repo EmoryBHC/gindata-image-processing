@@ -85,9 +85,6 @@ RUN conda install -y  --name base \
            "nomkl" \
            "pandas=1.3.5"
 
-#RUN conda install -y  --name base \
-#           "python=3.10" 
-
 RUN pip install pylibjpeg-libjpeg==2.2.0
 RUN pip install GDCM==1.1
 RUN pip install pylibjpeg==2.0.1
