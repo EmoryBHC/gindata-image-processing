@@ -30,7 +30,7 @@ _Follow these steps to build the container image and get started :_
    ```
 4. Run the conversion process by running the docker container with image data input. Please note the use of quotes around the -d flag input
    ```sh
-  docker run -v <INPUT MAPPING> -v <OUTPUT MAPPING> dicom_to_nifti -d "<MAPPED FILE INPUT>/{subject}/{session}/*/*.dcm" -o /src/heudiconv/bids-nifti -f /src/heudiconv/heuristic.py -s "<SUBJECT ID>" -ss "<SESSION ID>" -c dcm2niix --bids --overwrite
+   docker run -v <INPUT MAPPING> -v <OUTPUT MAPPING> dicom_to_nifti -d "<MAPPED FILE INPUT>/{subject}/{session}/*/*.dcm" -o /src/heudiconv/bids-nifti -f /src/heudiconv/heuristic.py -s "<SUBJECT ID>" -ss "<SESSION ID>" -c dcm2niix --bids --overwrite
    ```
 
 ## Flag Options 
