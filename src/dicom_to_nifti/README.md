@@ -24,6 +24,10 @@ _Follow these steps to build the container image and get started :_
    ```sh
    git clone https://github.com/EmoryBHC/gindata-image-processing.git
    ```
+2. Navigate to the dicom_to_nifti build folder
+   ```sh
+   cd gindata-image-processing/src/dicom_to_nifti
+   ```
 3. Build the docker container 
    ```sh
    docker build -t dicom_to_nifti .
