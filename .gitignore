@@ -3,3 +3,5 @@
 #   its containing folder, such as folder view options, icon positions, and other visual information.
 #   The name is an abbreviation of Desktop Services Store, reflecting its purpose.
 **/.DS_Store
+**/**/.DS_Store
+**/**/**/.DS_Store
