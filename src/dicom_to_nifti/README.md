@@ -35,10 +35,17 @@ _Follow these steps to build the container image and get started :_
 
 ## Flag Options 
 
--d 
--files
+* -d DICOM_DIR_TEMPLATE | --files FILES :: dicom/{subject}/*/*/*.dcm identifies the path to the DICOM files and specifies that they have the extension `.dcm` in this case.
+* -o OUTDIR :: Nifti/ is the output in Nifti. If the output directory does not exist, it will be created.
+* -f convertall This creates a heuristic.py template from an existing heuristic module. There are other heuristic modules , but convertall is a good default.
+* -s SUBJECT :: eg. 1234567 specifies the subject number.
+* -ss SESSION :: eg. 1.2.3456789.1223344.31423360
+* -c {dcm2niix,none} :: none indicates you are not actually doing any conversion right now.
+* -b BIDSOPTION1, BIDSOPTION2
+
+For more flag options, consult the heudiconv documentation linked below.
 
 ## More Information about Base Libraries
 
-a. heudiconv : [https://heudiconv.readthedocs.io/en/latest/](https://heudiconv.readthedocs.io/en/latest/)
-b. dcm2niix : 
+1. heudiconv : [https://heudiconv.readthedocs.io/en/latest/](https://heudiconv.readthedocs.io/en/latest/)
+2. dcm2niix : [https://github.com/rordenlab/dcm2niix](https://github.com/rordenlab/dcm2niix)
