@@ -37,7 +37,7 @@ _Follow these steps to build the container image and get started :_
 
 * -d DICOM_DIR_TEMPLATE | --files FILES :: dicom/{subject}/*/*/*.dcm identifies the path to the DICOM files and specifies that they have the extension `.dcm` in this case.
 * -o OUTDIR :: Nifti/ is the output in Nifti. If the output directory does not exist, it will be created.
-* -f convertall This creates a heuristic.py template from an existing heuristic module. There are other heuristic modules , but convertall is a good default.
+* -f PATH TO heuristic.py
 * -s SUBJECT :: eg. 1234567 specifies the subject number.
 * -ss SESSION :: eg. 1.2.3456789.1223344.31423360
 * -c {dcm2niix,none} :: none indicates you are not actually doing any conversion right now.
