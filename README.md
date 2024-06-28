@@ -29,18 +29,18 @@ More details on [`fastsurfer_volumetrics`](./src/fastsurfer_volumetrics/README.m
 
 ## Gindata Image Processing Output 
 
-TODO
+TBD - The output of containerized image processing will be used to augment the Gindata image inventory data, to ensure that structured output data is queryable alongside image metadata.
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Validate dicom_to_nifti image conversion
 - [ ] Develop approach to organize execution of dicom_to_nifti image conversion on Gindata image inventory
-- [ ] Supply images to ...
-- [ ] 
-- [ ] More
-    - [ ] More
-    - [ ] More
+- [ ] Supply images to external collaborators
+- [ ] Execute containerized image processing against Gindata image inventory & save output as structured data
+- [ ] Develop further containerized image processing units
+    - [ ] Work with researchers and external collaborators to understand future needs
+    - [ ] Other functionality of interest
 
 <!-- LICENSE -->
 ## License
@@ -50,19 +50,14 @@ Distributed under the TBD License. See [`LICENSE.txt`](.LICENSE.txt) for more in
 <!-- CONTACT -->
 ## Contact
 
-Gindata Operations - gindata@emory.edu
-Octavia Larentis - octavia.larentis@emory.edu
-Marina Rakic - marina.rakic@emory.edu
+For more information, please contact Gindata Operations at gindata@emory.edu.
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Image processing 
+Containerized images for performing image processing operations are developed and supplied by the CN2L lab, and will be in use in the Gindata data lake in the future to process ingested imaging data.
 
 * [Computational NeuroImaging & Neuroscience Lab](https://randomprogram.net/)
 * [Emory Brain Health]()
 
 ![](./medical.png)
-
-
-
