@@ -1,4 +1,4 @@
-![](./convert.png) {width=100 height=100}
+![](./convert.png)
 
 # DICOM to NIfTI Conversion
 

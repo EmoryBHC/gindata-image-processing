@@ -1,4 +1,4 @@
-![](./segment.png | width=100)
+![](./segment.png)
 
 # Fastsurfer Segmentation & Volumetric Data Derivation
 
