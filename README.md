@@ -40,6 +40,7 @@ TBD - The output of containerized image processing pipelines will be added to th
 - [ ] Develop approach to organize execution of dicom_to_nifti image conversion on Gindata image inventory
 - [ ] Supply images to external collaborators
 - [ ] Execute containerized image processing against Gindata image inventory & save output as structured data
+- [ ] Validate fastsurfer_volumetrics metrics derivation
 - [ ] Develop further containerized image processing units
     - [ ] Work with researchers and external collaborators to understand future needs
     - [ ] Other functionality of interest
