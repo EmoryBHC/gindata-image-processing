@@ -49,6 +49,10 @@ _Follow these steps to build the container image and get started :_
 
 For more flag options, consult the heudiconv documentation linked below.
 
+## Authors
+
+Marina Rakic : marina.rakic@emory.edu
+
 ## More Information about Base Libraries
 
 1. heudiconv : [https://heudiconv.readthedocs.io/en/latest/](https://heudiconv.readthedocs.io/en/latest/)
