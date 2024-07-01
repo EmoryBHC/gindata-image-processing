@@ -13,7 +13,7 @@
 
 # gindata-image-processing
 
-This repository will be used to define build specifications for containerized images that are used to perform image processing steps that are available to execute against Gindata imaging data.
+This repository will be used to define build specifications for Docker container images that can be used to perform image processing steps against Gindata imaging data.
 
 ## Available Processing Container Images:
 
